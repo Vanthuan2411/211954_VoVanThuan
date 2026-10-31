@@ -64,3 +64,9 @@ docker run -d -p 3000:80 vanthuan2411/frontend:latest
 Truy cập: http://localhost:3000
 
 Docker Hub: https://hub.docker.com/r/vanthuan2411/frontend
+
+## Backend API đã triển khai
+
+- URL: https://api-211954.onrender.com
+- Health check: https://api-211954.onrender.com/health
+- Danh sách thiết bị: https://api-211954.onrender.com/api/devices
