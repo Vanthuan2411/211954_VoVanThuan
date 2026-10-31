@@ -66,7 +66,7 @@ app.post('/api/devices', wrap(async (req, res) => {
 // Cập nhật
 app.put('/api/devices/:id', wrap(async (req, res) => {
   const device = await Device.findByIdAndUpdate(req.params.id, pick(req.body), {
-    new: true,
+    returnDocument: 'after',
     runValidators: true,
   });
   if (!device) return res.status(404).json({ message: 'Không tìm thấy thiết bị' });
