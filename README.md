@@ -32,3 +32,20 @@ Frontend:
     npm run dev
 
 Backend chạy ở http://localhost:5000, frontend ở http://localhost:5173.
+
+## Chạy backend bằng Docker
+Image: https://hub.docker.com/r/vanthuan2411/backend
+
+    docker pull vanthuan2411/backend:latest
+    docker run -d --name backend -p 5000:5000 \
+      -e MONGODB_URI="<chuoi-ket-noi-mongodb-atlas>" \
+      -e CORS_ORIGIN="http://localhost:3000" \
+      vanthuan2411/backend:latest
+
+Tự build image:
+
+    cd backend
+    docker build -t vanthuan2411/backend:latest .
+    docker push vanthuan2411/backend:latest
+
+Kiểm tra: http://localhost:5000/health
