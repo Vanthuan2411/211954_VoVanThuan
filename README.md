@@ -74,3 +74,14 @@ Docker Hub: https://hub.docker.com/r/vanthuan2411/frontend
 ## Frontend đã triển khai
 
 - URL: https://web-211954.onrender.com
+
+## Thông tin nộp bài
+
+| Trường | Nội dung |
+|---|---|
+| Link_GitHub | https://github.com/Vanthuan2411/211954_VoVanThuan |
+| Link_Docker_Backend | https://hub.docker.com/r/vanthuan2411/backend |
+| Link_Docker_Frontend | https://hub.docker.com/r/vanthuan2411/frontend |
+| Link_Render_App | https://web-211954.onrender.com |
+| Link_Render_API | https://api-211954.onrender.com |
+| Link_Data_MongoDB | Database 211954_VoVanThuan, collection devices (MongoDB Atlas) |
