@@ -70,3 +70,7 @@ Docker Hub: https://hub.docker.com/r/vanthuan2411/frontend
 - URL: https://api-211954.onrender.com
 - Health check: https://api-211954.onrender.com/health
 - Danh sách thiết bị: https://api-211954.onrender.com/api/devices
+
+## Frontend đã triển khai
+
+- URL: https://web-211954.onrender.com
