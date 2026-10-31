@@ -49,3 +49,18 @@ Tự build image:
     docker push vanthuan2411/backend:latest
 
 Kiểm tra: http://localhost:5000/health
+
+## Chạy frontend bằng Docker
+
+```bash
+# Build image (VITE_API_URL là địa chỉ backend)
+docker build -t vanthuan2411/frontend:latest \
+  --build-arg VITE_API_URL=http://localhost:5000 ./frontend
+
+# Chạy container
+docker run -d -p 3000:80 vanthuan2411/frontend:latest
+```
+
+Truy cập: http://localhost:3000
+
+Docker Hub: https://hub.docker.com/r/vanthuan2411/frontend
